@@ -8,21 +8,6 @@
 
 int intervals, num_threads;
 
-double calculate_pi() {
-    double sum = 0.0;
-    double step = 1.0 / intervals;
-    double x;
-    int i;
-
-    #pragma omp parallel for private(x) reduction(+:sum)
-    for (i=1; i < intervals; i++) {
-        x = step * (i+0.5); // We take 0.5 as we are taking middle point of rectangular area
-        sum += 4.0 / (1.0 + x * x);
-    }
-
-    return sum * step;
-}
-
 double calculate_pi_tnv_parallel(){
 int seed = 0;
 int i = 0;
