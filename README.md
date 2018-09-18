@@ -26,6 +26,14 @@ Time: 0.030931
 ```
 
 
+### pprog6.c
 
+```
+$ cc pprog6.c -fopenmp -lgd
+$ ./a.out mitta.png output.png 4
+File Size: 300x168
+Time Taken: 2.870ms
+
+```
 
 
