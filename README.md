@@ -36,6 +36,7 @@ Time Taken: 2.870ms
 
 ```
 Input : mitta.png
+
 ![mitta](https://user-images.githubusercontent.com/17908655/45671561-5353bd80-bb43-11e8-93cc-5f6cf1540d23.png)
 
 Output : output.png
