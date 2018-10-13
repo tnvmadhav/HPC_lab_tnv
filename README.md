@@ -5,7 +5,7 @@
 ## General syntax for executing code
 ```
 $ c++ <filename>.cpp -fopenmp
-$ ./a.out 100000000 2
+$ ./a.out <size_of_input> <no._of_threads>
 ```
 
 
