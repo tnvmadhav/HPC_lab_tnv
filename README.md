@@ -28,6 +28,19 @@ Time: 0.030931
 ------------------------------------------------------------------------------------------------------------------------
 ### pprog6.c
 
+#### gd APIs involved :
+1. gdImageCreateFromPng(file pointer)
+2. gdImageSX(img)
+3. gdImageSY(img)
+4. gdImageGetPixel(img, x, y)
+5. gdImageRed(img , color)
+6. gdImageGreen(img , color)
+7. gdImageBlue(img , color)
+8. gdImageColorAllocate(img , red , green , blue)
+9. gdImageSetPixel(img , x, y, color)
+10. gdImagePng(img , fp)
+11. gfImageDestroy(img)
+
 ```
 $ cc pprog6.c -fopenmp -lgd
 $ ./a.out mitta.png output.png 4
